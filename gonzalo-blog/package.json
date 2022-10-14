@@ -6,9 +6,18 @@
     "start": "next start"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-regular-svg-icons": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "bootstrap": "^5.2.2",
+    "bootstrap-icons": "^1.9.1",
     "next": "^12.3.1",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-bootstrap": "^2.5.0",
+    "react-cookie-consent": "^8.0.1",
+    "react-dom": "^17.0.2",
+    "react-player": "^2.11.0"
   },
   "devDependencies": {
     "@types/node": "^17.0.21",
