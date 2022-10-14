@@ -1,25 +1,32 @@
-import Link from 'next/link'
 import styles from '../styles/Home.module.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 type FooterProps = {
     darkTheme: boolean;
 };
 
 const Footer = ({ darkTheme }: FooterProps) => {
-    const backgroundColor = darkTheme ? "#041460": "#fff";
+    const backgroundColor = darkTheme ? "#F8F8F8": "#F8F8F8";
+    const footerTextColor = darkTheme ? "#F8F8F8": "#202020";
     return (
         <footer
             className={styles.footer}
             style={{ backgroundColor: backgroundColor }}
         >
-        <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-        >
-            Powered by{' '}
-        <   img src="/vercel.svg" alt="Vercel" className={styles.logo} />
-        </a>
+            <a
+                href="https://www.linkedin.com/in/gonzalo-p%C3%A9rez-d%C3%ADez/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="col-md-2 d-flex align-items-center align-text-center mb-md-0 ms-md-1 text-decoration-none"
+            >
+                <img src="img/linkedin-logo.png" height={30}/>
+            </a>
+            <p
+                className="d-flex align-text-center mb-md-0 ms-md-1 col-md-2"
+                style={{ color: footerTextColor }}
+            >
+                Gonzalo's portfolio
+            </p>
         </footer>
     );
 };
