@@ -4,7 +4,6 @@ import Footer from '../components/footer';
 import Navbar from '../components/navbar';
 
 export default function Home() {
-  const widthValue = '70%';
   return (
     <div>
       <div

@@ -1,7 +1,8 @@
 .container {
     background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
     background-size: cover;
-    min-height: 98vh;
+    min-height: 96vh;
+    min-width: 100vw;
 }
 
 .containerText{
@@ -19,4 +20,16 @@
     min-height: fit-content;
     align-items: center;
     display: flex;
+}
+
+.footer a{
+    padding-left: 2vw;
+}
+
+.footer a:hover{
+    opacity:0.5;
+}
+
+.footer p{
+    padding-left: 30vw;
 }

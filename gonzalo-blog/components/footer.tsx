@@ -17,15 +17,15 @@ const Footer = ({ darkTheme }: FooterProps) => {
                 href="https://www.linkedin.com/in/gonzalo-p%C3%A9rez-d%C3%ADez/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="col-md-2 d-flex align-items-center align-text-center mb-md-0 ms-md-1 text-decoration-none"
+                className="col-md-2 d-flex align-items-left align-text-left mb-md-0 ms-md-1 text-decoration-none"
             >
                 <img src="img/linkedin-logo.png" height={30}/>
             </a>
             <p
-                className="d-flex align-text-center mb-md-0 ms-md-1 col-md-2"
+                className="d-flex align-text-center mb-md-0 ms-md-1"
                 style={{ color: footerTextColor }}
             >
-                Gonzalo's portfolio
+                My Portfolio
             </p>
         </footer>
     );
