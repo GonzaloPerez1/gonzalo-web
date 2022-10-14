@@ -36,8 +36,16 @@ export default function DashboardNavbar({  selected }: DashboardNavbarProps){
                         <p style={{ color: "white" }}>Home</p>
                     </a>
                 </Link>
-                <Link href="https://www.linkedin.com/in/gonzalo-p%C3%A9rez-d%C3%ADez/">
+                <Link href="/about">
                     <a className="navbar-brand">
+                        <p style={{ color: "white" }}>About</p>
+                    </a>
+                </Link>
+                <Link href="https://www.linkedin.com/in/gonzalo-p%C3%A9rez-d%C3%ADez/">
+                    <a
+                        className="navbar-brand"
+                        target="_blank"
+                    >
                         <p style={{ color: "white" }}>Linkedin</p>
                     </a>
                 </Link>
